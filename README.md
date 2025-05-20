@@ -47,7 +47,7 @@ This project demonstrates how to containerize an e-commerce application using Do
 ## 🏗️ Architecture Diagram
 
 
-*(Replace with visual diagram if needed)*
+![Image](https://github.com/user-attachments/assets/2c2bd763-8ede-43b4-af49-79f5ab853d6d)
 
 ---
 
@@ -84,6 +84,7 @@ docker build -t shopex-ecommerce .
 
 docker run -d -p 8080:8080 shopex-ecommerce
 
+![Image](https://github.com/user-attachments/assets/d558b7f8-b8cd-4dcc-8c42-38dba7ccd204)
 
 
 📞 Contact Information
