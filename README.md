@@ -25,6 +25,9 @@ This project demonstrates how to containerize an e-commerce application using Do
 
 ---
 
+![Image](https://github.com/user-attachments/assets/5707d51d-2f74-423b-8cbf-7c63e3f209ff)
+
+
 ## 📌 Project Overview
 
 **Shopex-Commerce Solutions** faced performance issues due to a monolithic application on a single server, resulting in scalability problems during high traffic periods. This project containerizes the application using Docker to:
@@ -84,7 +87,8 @@ docker build -t shopex-ecommerce .
 
 docker run -d -p 8080:8080 shopex-ecommerce
 
-![Image](https://github.com/user-attachments/assets/d558b7f8-b8cd-4dcc-8c42-38dba7ccd204)
+![Image](https://github.com/user-attachments/assets/5707d51d-2f74-423b-8cbf-7c63e3f209ff)
+
 
 
 📞 Contact Information
