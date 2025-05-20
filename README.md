@@ -25,7 +25,7 @@ This project demonstrates how to containerize an e-commerce application using Do
 
 ---
 
-![Image](https://github.com/user-attachments/assets/5707d51d-2f74-423b-8cbf-7c63e3f209ff)
+![Image](https://github.com/user-attachments/assets/5e324dc7-a3cd-4f44-bb01-378f615a8d0a)
 
 
 ## 📌 Project Overview
@@ -69,9 +69,15 @@ sudo systemctl start docker
 sudo systemctl enable docker
 docker --version
 
+![Image](https://github.com/user-attachments/assets/5707d51d-2f74-423b-8cbf-7c63e3f209ff)
+
+
+
 # (Optional) Add current user to docker group
 sudo usermod -aG docker $(whoami)
 newgrp docker
+
+![Image](https://github.com/user-attachments/assets/5707d51d-2f74-423b-8cbf-7c63e3f209ff)
 
 project/
 ├── Dockerfile
@@ -86,6 +92,7 @@ docker build -t shopex-ecommerce .
 4.4 Running Docker Containers
 
 docker run -d -p 8080:8080 shopex-ecommerce
+
 
 
 
