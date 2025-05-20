@@ -25,3 +25,23 @@ cd project
 4.3 Building the Docker Images
 Create Dockerfile
 vim Dockerfile
+
+vim index.js
+
+Build the Docker Image
+docker build -t shopex-ecommerce
+
+Re-Build the Docker Image
+docker build -t shopex-ecommerce .
+
+docker image ls #list all available images
+
+4.4 Running the Containers
+Run the Docker Container
+
+docker run -d -p 8080:8080 shopex-ecommerce
+
+Or
+
+docker run -d --name shopex-ecommerce _container --rm -p 8081:8080 shopex-ecommerce
+vim package.json
