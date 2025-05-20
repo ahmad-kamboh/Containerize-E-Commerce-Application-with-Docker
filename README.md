@@ -87,8 +87,6 @@ docker build -t shopex-ecommerce .
 
 docker run -d -p 8080:8080 shopex-ecommerce
 
-![Image](https://github.com/user-attachments/assets/5707d51d-2f74-423b-8cbf-7c63e3f209ff)
-
 
 
 📞 Contact Information
