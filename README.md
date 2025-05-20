@@ -69,15 +69,10 @@ sudo systemctl start docker
 sudo systemctl enable docker
 docker --version
 
-![Image](https://github.com/user-attachments/assets/5707d51d-2f74-423b-8cbf-7c63e3f209ff)
-
-
-
 # (Optional) Add current user to docker group
 sudo usermod -aG docker $(whoami)
 newgrp docker
 
-![Image](https://github.com/user-attachments/assets/5707d51d-2f74-423b-8cbf-7c63e3f209ff)
 
 project/
 ├── Dockerfile
